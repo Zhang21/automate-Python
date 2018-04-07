@@ -2,7 +2,7 @@
 
 参考：
 
-- 《automate the boring stuff with Python》
+- 《automate the boring stuff with Python》: <https://book.douban.com/subject/26836700/>
 
 <br>
 
