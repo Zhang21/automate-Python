@@ -143,6 +143,70 @@ print(str(dic.get('NAME', 'backupValue')))
 ### setdefault()方法
 
 
+`setdefault()`方法提供了一种方式。传递给该方法的第一个参数，是要检查的键。第二个参数，是如果该键不存在时要设置的值。如果该键存在，则返回存在的值。
+
+`setdefault()`是一个很好的快捷方式，可以确保一个键存在。
+
+```py
+dic = {'name': 'zhang', 'sex': 'male', 'age': '18'}
+
+dic.setdefault('name', 'ZHANG21')
+#zhang
+dic.setdefault('NAME', 'ZHANG21')
+#ZHANG
+
+
+#栗子
+message = 'My liverpool football club'
+count= {}
+
+for i in message:
+    count.setdefault(count, 0)
+    count[i] = count[i] + 1
+
+print(count)
+
+```
+
+<br>
+<br/>
+
+
+### 漂亮打印
+
+
+使用`pprint()`模块的`pprint()`和`pformat()`函数，它们将打印出比`print()`更为漂亮的字典。
+如果字典本身有嵌套有列表或字典，那么`pprint()`函数就特别有用。
+如果希望得到漂亮打印的文本作为字符串，而不是显示在屏幕上，那就调用`pformat()`函数。
+
+
+<br>
+<br/>
+
+
+## 使用数据结构对真实世界建模
+
+
+可利用列表和字典，对真实世界建模，例如棋盘。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
