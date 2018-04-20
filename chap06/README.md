@@ -133,7 +133,7 @@ True
 -  `istitle`
     + 判定字符串只包含以大写字母开头、后面都是小写字母
 
-- `startwith()`
+- `startswith()`
     + 判定字符串的开始字符
 - `endswith()`
     + 判定字符串的结束字符
