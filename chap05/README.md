@@ -40,6 +40,7 @@ myCat = {'size': 'fat', 'color': 'gray', 'disposition': 'loud'}
 #访问
 myCat['size']
 #'fat'
+
 ```
 
 <br>
